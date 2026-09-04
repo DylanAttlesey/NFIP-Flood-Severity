@@ -21,6 +21,8 @@ The model uses only information available at underwriting time — with a few ex
 
 The model achieves a **holdout bias of −1.25%** (the average of true losses is close to the average of predicted losses) and a **Gini index of 0.41** (the model performs significantly better than random at predicting which losses will be worse than others), but a **D² of 0.1021** — the model is quite poor at explaining the amount of variation in damage amounts.
 
+<img width="1290" height="440" alt="NFIPSeverityLiftChart" src="https://github.com/user-attachments/assets/d94eb715-2e23-41f2-ab08-1d2bb69ed379" />
+
 ### Relativities
 
 Log-link GLMs relate the expected value of a prediction to each predictor with a *relativity* — a coefficient describing how the base damage value is scaled by an increase in a continuous predictor or the presence of a categorical. A relativity above 1.0 indicates increased expected severity; below 1.0, a reduction.
