@@ -1,5 +1,7 @@
 # Underwriting-Time Gamma GLM for Single-Family Home Flood Damage
 
+**Repository:** [github.com/DylanAttlesey/NFIP-Flood-Severity](https://github.com/DylanAttlesey/NFIP-Flood-Severity)
+
 A log-link Gamma generalized linear model predicting the structural damage of a flood event in USD, fitted to anonymized National Flood Insurance Program claims and restricted to information available at underwriting time.
 
 ## Motivation
